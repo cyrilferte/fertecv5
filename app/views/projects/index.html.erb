@@ -1,0 +1,28 @@
+<%= render "shared/home" %>
+<div class="container-fluid">
+    <div class="container">
+<div class="container">
+  <div class="row">
+      
+      <% @projects.each do |project| %>
+      
+    <div class="col-lg-4">
+      <article class="card"><div class="thumb" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= project.img %>') no-repeat center; background-size:cover;"></div>
+  <div class="infos">
+    <h2 class="title"><%= project.name %><i class="fa <%= project.icon %> flag" aria-hidden="true"></i></h2>
+    <h3 class="date">category : <%= project.category %></h3>
+    <p class="txt">
+     <%= project.tagline %>
+    </p>
+    <h3 class="details"><%= link_to "link", project.link %></h3>
+  </div>
+</article>
+    </div>
+    
+    <% end %>
+   
+  </div>
+</div>
+</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
