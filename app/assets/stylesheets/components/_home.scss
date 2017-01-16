@@ -2,10 +2,7 @@ $tiber: #09383E;
 $elephant: #0C383E;
 $white: #fff;
 
-// rem font sizing.
-html { font-size: 62.5%; }
-body { font-size: 1.4rem; } /* =14px */
-h1   { font-size: 2.4rem; } /* =24px */
+
 
 .container__item {
     margin: 0 auto 40px;
@@ -13,8 +10,7 @@ h1   { font-size: 2.4rem; } /* =24px */
 
 .landing-page-container {
     width: 100%;
-    min-height: 100%;
-    height: 90rem;
+    height: 100%;
     background-image: url('');
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +23,6 @@ h1   { font-size: 2.4rem; } /* =24px */
 .content__wrapper {
     max-width: 1200px;
     width: 90%;
-    height: 100%;
     margin: 0 auto;
     position: relative;
 }

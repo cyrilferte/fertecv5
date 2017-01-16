@@ -8,34 +8,23 @@
       <script src="https://dl.dropboxusercontent.com/u/3043757/tmp/codepen/lib/aos-master/dist/aos.js"></script>
       
       
-        <div class="container-fluid">
+        <div class="container" id="home">
             <div class="container__item landing-page-container">
                 <div class="content__wrapper">
 
-                    <header class="header">
-                        <div class="menu-icon header__item">
-                            <span class="menu-icon__line"></span>
-                        </div>
+                    <header class="header ">
+                        <%= render "shared/nav" %>
 
                         <h1 class="heading header__item">FERTEC</h1>
 
-                        <ul class="social-container header__item">
-                            <li class="social__icon social__icon--fb">
-                                <img src="http://s29.postimg.org/3ldyta4qb/image.png" alt="facebook">
-                            </li>
-                            <li class="social__icon social__icon--dr">
-                                <img src="http://s29.postimg.org/vqltn8fhv/image.png" alt="dribbble">
-                            </li>
-                            <li class="social__icon social__icon--in">
-                                <img src="http://s29.postimg.org/p1fa77u5v/image.png" alt="instagram">
-                            </li>
-                        </ul>
+                        <%= render "shared/social" %>
+                        
                     </header>
 
-                    <p class="coords" >All right reserve by cyril ferte lol</p>
+                  
 
 
-                    <div class="ellipses-container"> 
+                    <div class="ellipses-container "> 
 
                         <h2 class="greeting">Fertec </h2>
 
@@ -46,8 +35,9 @@
                         </div>
 
                         <div class="ellipses ellipses__outer--thick"></div>
+                        
                     </div>
-
+<br><br><br><br><br><br>
                  
                 </div>
 
@@ -55,14 +45,6 @@
 
         </div>
 
-<div class="scroller">
-                        <p class="page-title">home</p>
 
-                        <div class="timeline">
-                            <span class="timeline__unit"></span>
-                            <span class="timeline__unit timeline__unit--active"></span>
-                            <span class="timeline__unit"></span>
-                        </div>
-                    </div>
 
 <br><br>

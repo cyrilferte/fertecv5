@@ -36,3 +36,27 @@
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
 }
+
+
+@media screen and (max-width: 720px) {
+  .ellipses-container {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  .menu-icon__line {
+  visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+.content__wrapper{height:50px;}
+.container__item{} 
+.landing-page-container{height:100px;}
+  
+}
