@@ -54,7 +54,7 @@ $merriweather:'Merriweather', sans-serif;
 	}
 	&:hover::after {
 		width:100%;
-		box-shadow:$box-shadow;
+	
 	}
 }
 
@@ -138,3 +138,5 @@ article.card {
 		}
 	}
 }
+
+.card-marging{margin: 0 0 30px 0;}

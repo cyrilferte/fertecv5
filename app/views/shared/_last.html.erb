@@ -1,0 +1,47 @@
+
+<%= link_to @projects.last.name, "http://fertec.fr", class:"btn blue btn-outline mb1 maroon up text-center" %>
+
+<style>
+    .btn {
+  display: inline-block;
+  margin: 1em 0;
+  padding: 1em 2em;
+  
+  background: transparent;
+  border-radius: 3px;
+  font-weight: 400;
+  text-align: center;
+}
+ .blue span {
+    @include font-gradient($blue, $purple, left);
+  }
+  
+  .blue {
+    padding: .75em;
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+
+/* Box-Shadow Technique */
+.box {
+  .blue {
+    @include box-gradient(#3dade9, #bf2fcb, 1px);
+  }
+}
+.up{position:absolute; margin: 0 auto; top:60%; left:37%;display: inline-block;
+
+  background: transparent;
+  border-radius: 3px;
+  font-weight: 400;
+  text-align: center;}
+  .blue {
+   box-gradient(#3dade9, #bf2fcb, 1px);
+   font-gradient(#3dade9, #bf2fcb, left);
+  }
+  .maroon{color:#85144b}
+  .mb1{margin-bottom:.5rem}
+  .btn-outline,.btn-outline:hover{border-color:currentcolor}.btn-outline{border-radius:3px}.btn-outline:hover{box-shadow:inset 0 0 0 20rem rgba(0,0,0,.0625)}.btn-outline:active{box-shadow:inset 0 0 0 20rem rgba(0,0,0,.125),inset 0 3px 4px 0 rgba(0,0,0,.25),0 0 1px rgba(0,0,0,.125)}.btn-outline.is-disabled,.btn-outline:disabled{opacity:.5}
+
+</style>
